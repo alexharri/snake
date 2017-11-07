@@ -1,0 +1,15 @@
+.row {
+  display: flex;
+  display: inline-block;
+  background: black;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+}
+
+.cell.active {
+  background: blue;
+  border-radius: 50%;
+}
